@@ -1,0 +1,28 @@
+# Define the variable vegas
+vegas <- "Go!"
+
+numeric_vector <- c(1, 10, 49)
+character_vector <- c("a", "b", "c")
+
+# Complete the code for boolean_vector
+boolean_vector <- c(TRUE,FALSE,TRUE)
+
+#naming vector
+#This code first creates a vector some_vector and then gives the two elements a name. 
+#The first element is assigned the name Name, while the second element is labeled Profession
+some_vector <- c("John Doe", "poker player")
+names(some_vector) <- c("Name", "Profession")
+
+# Poker winnings from Monday to Friday
+poker_vector <- c(140, -50, 20, -120, 240)
+
+# Roulette winnings from Monday to Friday
+roulette_vector <- c(-24, -50, 100, -350, 10)
+
+# Assign days as names of poker_vector
+names(poker_vector) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+
+# Assign days as names of roulette_vector
+names(roulette_vector) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+
+
