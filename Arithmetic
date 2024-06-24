@@ -1,0 +1,16 @@
+#Simply write the expression, program will calculate 
+
+#examples
+6+12
+
+# A multiplication
+3 * 5
+
+ # A division
+(5 + 5) / 2 
+
+# Exponentiation
+2^5
+
+# Modulo
+28%%6
