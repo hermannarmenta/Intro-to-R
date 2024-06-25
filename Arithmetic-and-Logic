@@ -1,0 +1,24 @@
+#Simply write the expression, program will calculate 
+
+#examples
+6+12
+
+# A multiplication
+3 * 5
+
+ # A division
+(5 + 5) / 2 
+
+# Exponentiation
+2^5
+
+# Modulo
+28%%6
+
+# < for less than
+# > for greater than
+# <= for less than or equal to
+# >= for greater than or equal to
+# == for equal to each other
+# != not equal to each other
+
