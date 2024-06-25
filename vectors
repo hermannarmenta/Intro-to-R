@@ -19,10 +19,38 @@ poker_vector <- c(140, -50, 20, -120, 240)
 # Roulette winnings from Monday to Friday
 roulette_vector <- c(-24, -50, 100, -350, 10)
 
-# Assign days as names of poker_vector
+# Assign days as names of poker_vector columns
 names(poker_vector) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
 
-# Assign days as names of roulette_vector
+# Assign days as names of roulette_vector columns
 names(roulette_vector) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
+
+
+# Take the sum of A_vector and B_vector
+A_vector <- c(1, 2, 3)
+B_vector <- c(4, 5, 6)
+total_vector <- A_vector+B_vector
+  
+# Print out total_vector
+total_vector
+
+
+#Sum all elements in a vector
+
+total <- sum(vector_name)
+
+#selecting element "n" from vector, n=1 is first element
+vector_name[n]
+
+#selecting multiple elements from vector
+vector_name[c(1,2,3)]
+
+#select interval n-m (inclusive)
+vector_name[c(n:m)]
+
+#calculate mean
+mean(vector_name)
+
+
 
 
