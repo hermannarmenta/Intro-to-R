@@ -7,6 +7,6 @@ matrix(1:9, byrow = TRUE, nrow = 3)
 #If we want the matrix to be filled by the columns, we just place byrow = FALSE.
 #The third argument nrow indicates that the matrix should have three rows.
 
-
-
+#Constructing matrix from a vector
+matrix(vector_name, byrow = TRUE, nrow = 3)
 
