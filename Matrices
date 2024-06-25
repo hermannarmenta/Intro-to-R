@@ -10,3 +10,28 @@ matrix(1:9, byrow = TRUE, nrow = 3)
 #Constructing matrix from a vector
 matrix(vector_name, byrow = TRUE, nrow = 3)
 
+#add names to rows and columns
+rownames(my_matrix) <- row_names_vector
+colnames(my_matrix) <- col_names_vector
+
+# rowSums() and colSums() conveniently calculates the totals for each row or column of a matrix. 
+# This function creates a new vector: rowSums(my_matrix)
+
+#add a column or multiple columns to a matrix with the cbind() function, 
+# which merges matrices and/or vectors together by column
+
+combined_matrix <- cbind(matrix_1, matrix_2, vector_name)
+
+#add a column or multiple columns to a matrix with the rbind() function, 
+# which merges matrices and/or vectors together by row
+
+combined_matrix <- rbind(matrix_1, matrix_2, vector_name)
+
+
+#Selecting matrix elements
+
+my_matrix[1,2] #selects the element at the first row and second column.
+my_matrix[1:3,2:4] #results in a matrix with the data on the rows 1, 2, 3 and columns 2, 3, 4.
+
+my_matrix[,1] #selects all elements of the first column.
+my_matrix[1,] #selects all elements of the first row.
