@@ -26,6 +26,9 @@ names(poker_vector) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
 names(roulette_vector) <- c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday")
 
 
+#subsetting base on a condition
+sub_vector <- vector_name[condition]
+
 # Take the sum of A_vector and B_vector
 A_vector <- c(1, 2, 3)
 B_vector <- c(4, 5, 6)
