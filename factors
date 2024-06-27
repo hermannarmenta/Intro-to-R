@@ -1,0 +1,15 @@
+#  factor refers to a statistical data type used to store categorical variables
+
+factor(vector) #gives the categories (levels) for the variable
+
+#types of categorical variables: nominal (not implied ordered)  ordinal (implied order)
+
+#When you first get a dataset, you will often notice that it contains factors with specific factor levels. To change the names of these levels 
+R allows you to do this with the function levels()
+#levels are automatically ordered alphabetically if not specified. 
+
+levels(factor_vector) <- c("name1", "name2",...)
+
+#Summarizing a factor
+summary() #gives you a quick overview of the contents of a variable
+
