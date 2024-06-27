@@ -13,3 +13,9 @@ levels(factor_vector) <- c("name1", "name2",...)
 #Summarizing a factor
 summary() #gives you a quick overview of the contents of a variable
 
+
+#To create an ordered factor, you have to add two additional arguments: ordered and levels.
+
+factor(some_vector,
+       ordered = TRUE,
+       levels = c("lev1", "lev2" ...))
