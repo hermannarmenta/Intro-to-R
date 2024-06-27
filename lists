@@ -1,0 +1,15 @@
+#constructing list
+my_list <- list(comp1, comp2 ...)
+
+#giving names to components on list
+my_list <- list(name1 = your_comp1, 
+                name2 = your_comp2)
+
+#naming components after creating list
+my_list <- list(your_comp1, your_comp2)
+names(my_list) <- c("name1", "name2")
+
+#selecting elements from list
+my_list[[component_position]]
+
+my_list[[2]][1] #selects 1st element from 2nd component on list
